@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+git remote add upstream $(cat .starter_repo) && git fetch upstream && git reset --hard upstream/main && git push --force-with-lease
